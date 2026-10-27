@@ -1,0 +1,201 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f2f5fa;
+    color: #243247;
+    font-size: 15px;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 8px 20px 30px;
+}
+
+.titolo {
+    color: #1d3557;
+    font-size: 28px;
+    margin: 18px 0 10px;
+}
+
+/* barra di navigazione del sito */
+.menu {
+    background: #ffffff;
+    border: 1px solid #dfe5ee;
+    border-radius: 8px;
+    padding: 4px;
+    margin-bottom: 16px;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 9px 12px;
+    color: #1d3557;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+.menu a:hover {
+    background: #1d3557;
+    color: #ffffff;
+}
+
+/* blocco centrale con il contenuto della pagina */
+.contenuto {
+    background: #ffffff;
+    border: 1px solid #dfe5ee;
+    border-radius: 8px;
+    padding: 18px 22px;
+}
+
+.sottotitolo {
+    color: #1d3557;
+    font-size: 20px;
+    margin: 4px 0 10px;
+}
+
+/* tabelle di visualizzazione dei dati */
+table.dati {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 14px 0;
+    font-size: 14px;
+}
+
+table.dati th {
+    background: #1d3557;
+    color: #ffffff;
+    padding: 7px 9px;
+    text-align: left;
+}
+
+table.dati td {
+    border: 1px solid #d7dce6;
+    padding: 6px 9px;
+}
+
+table.dati tr:nth-child(even) {
+    background: #f4f6fb;
+}
+
+/* moduli di inserimento */
+form.modulo label {
+    display: block;
+    margin: 10px 0 3px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+form.modulo input[type=text],
+form.modulo input[type=number],
+form.modulo input[type=date],
+form.modulo select {
+    padding: 7px;
+    border: 1px solid #c3cbda;
+    border-radius: 4px;
+    width: 300px;
+    font-size: 14px;
+    background: #ffffff;
+}
+
+input[type=submit],
+.bottone {
+    margin-top: 14px;
+    display: inline-block;
+    background: #1d3557;
+    color: #ffffff;
+    border: 0;
+    border-radius: 4px;
+    padding: 9px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+input[type=submit]:hover,
+.bottone:hover {
+    background: #31578f;
+}
+
+.bottone.pericoloso {
+    background: #b02a37;
+}
+
+.bottone.pericoloso:hover {
+    background: #8f2029;
+}
+
+/* messaggi di errore e di conferma */
+.msg-ok {
+    margin: 10px 0;
+    padding: 10px 12px;
+    background: #e6f6ea;
+    border: 1px solid #79c799;
+    border-radius: 5px;
+    color: #186a2d;
+}
+
+.msg-errore {
+    margin: 10px 0;
+    padding: 10px 12px;
+    background: #fdecec;
+    border: 1px solid #e5a0a0;
+    border-radius: 5px;
+    color: #8f1f26;
+}
+
+.msg-info {
+    margin: 10px 0;
+    padding: 10px 12px;
+    background: #e8f1fd;
+    border: 1px solid #9cc0ee;
+    border-radius: 5px;
+    color: #1a4a8f;
+}
+
+/* pagina home: le caselle con le sei funzionalita */
+.caselle {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 14px;
+}
+
+.casella {
+    background: #ffffff;
+    border: 1px solid #dfe5ee;
+    border-radius: 8px;
+    padding: 14px 16px;
+    width: 300px;
+}
+
+.casella h3 {
+    margin: 0 0 6px;
+    font-size: 16px;
+    color: #1d3557;
+}
+
+.casella p {
+    margin: 0 0 10px;
+    font-size: 13px;
+    color: #55617a;
+}
+
+.casella a {
+    font-size: 14px;
+    color: #1d6bc0;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer {
+    margin-top: 16px;
+    font-size: 12px;
+    color: #8a93a6;
+    text-align: center;
+}
